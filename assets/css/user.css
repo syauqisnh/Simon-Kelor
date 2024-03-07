@@ -1,0 +1,329 @@
+/* Page profile */
+.box-page-profile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-left: rgb(233, 233, 233) solid 2px;
+  border-right: rgb(233, 233, 233) solid 2px;
+  }
+  .header-box-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #311e69;
+    border-bottom: rgb(233, 233, 233) solid 2px;
+    color: #fdfdfd;
+}
+.judul-header{
+    display: flex;
+    flex-direction: column;
+}
+.judul-header .name .a{
+    font-size: 16pt;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+.content-box-profile{
+  padding: 40px 0px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.content-left-profile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-right: #c5c5c5 solid 2px;
+}
+.box-foto-profil{
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.underline{
+  margin: 0px 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* border-bottom: #c5c5c5 solid 2px; */
+  background-color: #f3f3f3;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.box-info-profil{
+  height: 100%;
+  padding: 0px 100px;
+}
+.cover-edit-foto{
+  height: 85%;
+  display: flex;
+  border: #f3f3f3 solid 2px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.cover-edit-data{
+  height: 95%;
+  display: flex;
+  border: #f3f3f3 solid 2px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.cover-edit-pass{
+  height: 75%;
+  display: flex;
+  border: #f3f3f3 solid 2px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.cover{
+  height: 80%;
+  display: flex;
+  border: #f3f3f3 solid 2px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.cover .start{
+  text-align: end;
+  padding: 20px 20px;
+  font-weight: 900;
+  color: #311e69;
+}
+.cover .center{
+  text-align: center;
+  padding: 20px 20px;
+  color: #311e69;
+}
+.cover .end{
+  text-align: start;
+  padding: 20px 20px;
+  color: #311e69;
+}
+.cover ul li{
+  margin: 40px 0px;
+  list-style: none;
+}
+.card-profile{
+  width: 150px;
+  padding: 25px;
+  text-align: center;
+}
+.foto-page-profil img{
+  width: 100px;
+  border-radius: 50%;
+}
+.name-page-profil{
+  width: 100%;
+  padding: 25px 0px;
+  color: #311e69;
+  font-size: 24px;
+  font-weight: 500;
+}
+.content-right-profile{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+}
+.content-right-profile .content-right{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.content-right-profile .content-right ul li{
+  margin: 20px 0px;
+  list-style: none;
+}
+.content-right-profile .content-right ul li a:hover{
+  text-decoration: underline;
+  
+}
+.cover-edit-foto .card-update-foto, .cover-edit-data .card-update-data,
+.cover-edit-pass .card-update-pass{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-update-foto .foto-profile{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  text-align: center;
+}
+.foto-profile img{
+  width: 100%;
+  border-radius: 50%;
+}
+.name-page-update{
+  width: 100%;
+  padding: 25px 25px;
+  color: #311e69;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+ 
+@media (max-width: 900px) {
+  .content-box-profile{
+    flex-direction: column;
+  }
+  .underline{
+    margin: 0px 50px;
+  }
+  .box-info-profil{
+    padding: 0px 50px;
+  }
+  .cover, .cover-edit-foto, .cover-edit-data, .cover-edit-pass {
+    height: 100%;
+  }
+  .content-right-profile{
+    width: 100%;
+    padding: 20px 50px;
+  }
+  .content-right-profile .content-right ul{
+    padding: 0px 20px;
+    width: 100%;
+    border: #f3f3f3 solid 2px;
+    border-radius: 25px;
+    height: 35%;
+  }
+}
+
+@media (max-width: 600px) {.box-page-profile{
+  border-top: rgb(233, 233, 233) solid 2px;
+  border-left: none;
+  border-right: none;
+  }
+  .content-right-profile .content-right ul{
+    height: 85%;
+  }
+}
+
+@media (max-width: 420px) {
+  .content-right-profile .content-right ul{
+    height: 65%;
+  }
+  .box-foto-profil{
+    padding-top: 0px;
+  }
+  .name-page-profil span, .name-page-update span{
+    font-size: 16px;
+  }
+  .underline{
+    margin: 0px 20px;
+  }
+  .box-info-profil{
+    padding: 0px 20px;
+  }
+  .cover .start, .cover .center, .cover .end{
+    font-size: 12px;
+  }
+  .content-right-profile{
+    padding: 20px ;
+  }
+}
+
+
+
+
+/* Page user */
+
+.header-user-page{
+  padding: 10px 50px;
+}
+.page-user{
+  width: 100%;
+    padding: 20px 50px;
+}
+.header-user-title{
+  display: flex;
+  justify-content: start;
+}
+.header-user-title a{
+  font-weight: 900;
+  font-size: 16px;
+}
+.header-user-title a{
+  color: #311e69;
+}
+.header-user{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.table-user {
+  border-collapse: collapse;
+  width: 100%;
+} 
+.table-user thead tr th, .table-user tbody tr td {
+  text-align: center;
+  padding: 8px;
+}
+
+.table-user thead tr th {
+  padding: 20px 0px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #311E69;
+  border-bottom: 2px solid #311E69;
+}
+.table-user tbody tr td {
+    padding: 20px 0px;
+    border-bottom: 2px solid #311E69;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #525252;
+}
+.box-logo-file-user{
+    background-color: #525252;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0px 10px;
+}
+.box-logo-file-user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .page-user{
+    padding: 20px 30px;
+  }
+  .content-user{
+    overflow: auto;
+  }
+  .table-user thead tr th {
+    font-size: 12px;
+  }
+  .table-user tbody tr td {
+      padding: 10px 20px;
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-user{
+    padding: 20px 20px;
+  }
+  .header-user{
+    padding-right: 20px;
+  }
+  .sub-header-user a{
+    font-size: 16pt;
+  }
+}
+
+@media (max-width: 420px) {
+}

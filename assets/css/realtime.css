@@ -1,0 +1,469 @@
+.main-realtime{
+  display: flex;
+  width: 100%;
+}
+.main-right{
+display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+width: 100%;
+padding: 0px 60px;
+}
+.main-left{
+display: flex;
+flex-direction: column;
+width: 20%;
+align-items: end;
+}
+.box-card{
+  padding-bottom: 70px;
+}
+.card-langgam{
+  margin: 10px 0px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 30px;
+  width: 100%;
+  border: 2px solid rgb(205, 205, 205);
+}
+.card-donnut{
+  margin: 10px 0px;
+  padding: 30px 0px;
+  background: transparent;
+  border-radius: 30px;
+  width: 100%;
+  border: none,
+}
+.card-pie{
+  padding: 30px 0px;
+  background: transparent;
+  border-radius: 30px;
+  width: 100%;
+  border: none,
+}
+.header-langgam{
+  display: flex;
+  justify-content: space-between;
+}
+.legend-chart{
+  padding: 0px 20px;
+  display: flex;
+}
+.point{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.legend-chart{
+  padding: 0px 20px;
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
+.real, .predic{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+}
+.real .point{
+  background-color: red;
+}
+.real span{
+  margin: 0px 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #EA8F95;
+  }
+.predic span{
+    margin: 0px 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5041BC;
+  }
+.predic .point{
+  background-color: blue;
+}
+.card-left{
+  margin: 10px 0px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+.card-update{
+  margin: 10px 0px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+.card-hijau{
+  background-color: #2CC285;
+}
+.card-biru{
+  background-color: #311e69;
+}
+.card-orange{
+  background-color: #FF9F40;
+}
+.card-kuning{
+  background-color: #FFCC00;
+}
+.card-off{
+  background-color: #D9D9D9;
+}
+.card-name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.card-value{
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.date{
+  margin-left: 10px;
+}
+.box-chart{
+
+  padding-top: 30px;
+}
+.header-card-langgam{
+  display: flex;
+  justify-content: space-around;
+}
+.header-card-donnut{
+  display: flex;
+  padding-bottom: 20px;
+}
+.card-name-right{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #311e69;
+  width: 100%;
+}
+.legends{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.kuning{
+  color: #F4BE37;
+}
+.biru-muda{
+  color: #5388D8;
+}
+.biru-tua{
+  color: #0D2535;
+}
+.orange{
+  color: #FF9F40;
+
+}
+.cards-1 .card{
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-chart-donut{
+  height: 100%;
+  display: flex ;
+}
+.donut{
+  border: 2px solid #D9D9D9;
+  border-radius: 20px;
+  margin: 20px 0px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.chart-donut{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 50px;
+}
+.legends-donut{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box-table{
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  width: 80%;
+}
+.table-donut {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-donut thead tr th, .table-donut tbody tr td {
+  text-align: center;
+  padding: 8px;
+}
+
+.table-donut thead tr th {
+  background-color:  #4E4E53;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+.table-donut tbody tr td {
+  background-color:  rgba(217, 217, 217, 0.5);
+  font-weight: 400;
+  font-size: 12px;
+  color: #0f0f0f;
+}
+
+#chart-donut, #chart-pie {
+  width: 250px;
+  height: 250px;
+}
+
+
+
+@media (max-width: 900px) {
+  .main-realtime{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-realtime{
+    padding: 0;
+  }
+  .main-right{
+  width: 75%;
+  padding: 0px 10px;
+  }
+    .card-langgam{
+      border-radius: 10px;
+      padding: 5px;
+    }
+    
+.box-chart-donut{
+  height: 100%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: start;
+}
+.header-card-donnut{
+  padding-bottom: 0px;
+}
+.donut{
+  border:none;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-table{
+  padding-left: 0px;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.legends-donut{
+  padding: 20px 0px;
+}
+.box-card{
+  padding-bottom: 50px;
+}
+    .card-left{
+      border-radius: 15px 0px 0px 15px;
+      width: 100%; 
+      padding: 10px 10px;
+    }
+    .box-chart{
+      padding-top: 0px;
+    }
+    .card-name-right{
+      font-size: 8px;
+    }
+    .legends{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .card-name, .card-value, .red, .blue, .biru-muda, .biru-tua, .orange, .kuning{
+      font-size: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+  .header-realtime{
+    justify-content: space-between;
+  }
+  .main-realtime{
+    width: 100%;
+  }
+  .main-right{
+  width: 75%;
+  padding: 0px 10px;
+  }
+    .card-langgam{
+      border-radius: 10px;
+      padding: 5px;
+    }
+    
+.box-chart-donut{
+  height: 100%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: start;
+}
+.header-card-donnut{
+  padding-bottom: 0px;
+}
+.donut{
+  border:none;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-donut{
+  padding: 10px;
+}
+.box-table{
+  padding-left: 0px;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.legends-donut{
+  padding: 20px 0px;
+}
+.box-card{
+  padding-bottom: 50px;
+}
+    .card-left{
+      border-radius: 15px 0px 0px 15px;
+      width: 100%; 
+      padding: 10px 10px;
+    }
+    .box-chart{
+      padding-top: 0px;
+    }
+    .card-name-right{
+      font-size: 8px;
+    }
+    .legends{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .card-name, .card-value, .red, .blue, .biru-muda, .biru-tua, .orange, .kuning{
+      font-size: 8px;
+    }
+    
+.card-update{
+  padding: 5px 20px;
+  margin: 20px 0px;
+}
+}
+
+@media (max-width: 420px) {
+  .main-right{
+  width: 75%;
+  padding: 0px 10px;
+  }
+    .card-langgam{
+      border-radius: 10px;
+      padding: 5px;
+    }
+    
+.box-chart-donut{
+  height: 100%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: start;
+}
+.header-card-donnut{
+  padding-bottom: 0px;
+}
+.donut{
+  border:none;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-table{
+  padding-left: 0px;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.legends-donut{
+  padding: 20px 0px;
+}
+.box-card{
+  padding-bottom: 50px;
+}
+    .card-left{
+      border-radius: 15px 0px 0px 15px;
+      width: 100%; 
+      padding: 10px 10px;
+    }
+    .card-name{
+      font-size: 8px;
+    }
+    .card-value{
+      font-size: 8px;
+    }
+    .box-chart{
+      padding-top: 0px;
+    }
+    .card-name-right{
+      font-size: 8px;
+    }
+    .legends{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+    .red, .blue, .biru-muda, .biru-tua, .orange, .kuning{
+      font-size: 8px;
+    }
+}

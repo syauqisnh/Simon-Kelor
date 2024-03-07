@@ -1,0 +1,144 @@
+.page-data-operasi{
+    width: 100%;
+    padding: 20px 50px;
+}
+.card-data-operasi{
+    margin: 10px 0px;
+    padding: 30px 0px;
+    background: transparent;
+    border-radius: 30px;
+    width: 100%;
+    border: none,
+  }
+  .header-card-data-operasi{
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .card-name-right-data-operasi{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #311e69;
+    width: 100%;
+  }
+  .box-chart-langgam-beban-harian{
+    height: 100%;
+    display: flex ;
+  }
+  .box-chart-load-stacking-energi{
+    height: 100%;
+    display: flex ;
+  }
+  .chart-langgam-beban-harian{
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .chart-load-stacking-energi{
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box-table-data-operasi{
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    width: 50%;
+  }
+  .box-table-data-operasi-2{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .table-data-operasi {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-data-operasi thead tr th, .table-data-operasi tbody tr td {
+    text-align: left;
+    padding: 8px;
+  }
+  .table-data-operasi tbody tr td {
+    background-color:  rgba(217, 217, 217, 0.5);
+    font-weight: 400;
+    font-size: 12px;
+    color: #0f0f0f;
+  }
+  
+  .table-data-operasi thead tr th {
+    background-color:  #4E4E53;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+  .select-data-operasi{
+    width: 25%;
+    display: flex;
+    margin: 0px 100px;
+    align-items: center;
+  }
+  .select-data-operasi label{
+    width: 40%;
+  }
+  .select-data-operasi select{
+    width: 60%;
+  }
+
+
+  @media (max-width: 900px) {
+    .data-operasi a{
+      margin-top: 0;
+      margin-left: 10px;
+    }
+    .select-data-operasi{
+      width: 40%;
+      margin: 0px 20px;
+    }
+    .chart-langgam-beban-harian{
+      padding: 5px 5px;
+    }
+    .box-chart-langgam-beban-harian{
+      flex-direction: column;
+    }
+    .box-table-data-operasi{
+      width: 100%;
+      padding: 0;
+    }
+    .box-table-data-operasi-2{
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .page-data-operasi{
+      padding: 10px 20px;
+    }
+    .data-operasi{
+      justify-content: space-between;
+    }
+    .data-operasi a{
+      font-size: 15pt;
+    }
+    .select-data-operasi{
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 420px) {
+  }

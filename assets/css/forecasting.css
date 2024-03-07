@@ -1,0 +1,186 @@
+.box-table-data-forecasting{
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .table-data-beban {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-data-beban-a {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-data-beban thead tr th, .table-data-beban tbody tr td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .table-data-beban thead tr th {
+    background-color:  #4E4E53;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .table-data-beban-a thead tr th {
+    background-color:  #4E4E53;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    padding: 8px 50px;
+    width: 50%;
+  }
+  .table-data-beban tbody tr td {
+    background-color:  rgba(217, 217, 217, 0.5);
+    font-weight: 400;
+    font-size: 12px;
+    color: #0f0f0f;
+    width: 50%;
+  }
+
+  .title-hasil-forecasting{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #311e69;
+    width: 100%;
+    padding-top: 10px;
+}
+  .table-forecast{
+    display: flex;
+    width: 100%;
+  }
+  .table-data-forecasting-waktu {
+    border-collapse: collapse;
+    width: 10%;
+  }
+  .table-data-forecasting {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-data-forecasting thead tr th, .table-data-forecasting tbody tr td,
+  .table-data-forecasting-waktu thead tr th, .table-data-forecasting-waktu tbody tr td {
+    text-align: center;
+    padding: 8px;
+  }
+  .table-data-forecasting tbody tr td, .table-data-forecasting-waktu tbody tr td{
+    background-color:  rgba(217, 217, 217, 0.5);
+    font-weight: 400;
+    font-size: 12px;
+    color: #0f0f0f;
+  }
+  .table-data-forecasting thead tr th, .table-data-forecasting-waktu thead tr th {
+    background-color:  #4E4E53;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+  .table-data-forecasting thead tr th{
+    height: 100px;
+    width: 100px;
+  }
+  .table-data-forecasting thead tr th a{
+    color: #fff;
+    font-weight: lighter;
+    font-size: smaller;
+  }
+  .table-data-forecasting thead tr th a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+  }
+  .table-data-forecasting tbody tr td{
+    width: 100px;
+    /* background-color: #311e69; */
+  }
+  .table-data-forecasting-waktu thead tr th{
+    height: 100px;
+  }
+  .page-data-forecast {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    overflow: auto;
+  }
+  .page-data-tableforecast {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+  }
+
+.page-forecasting{
+    width: 100%;
+    padding: 20px 50px;
+}
+.page-beban{
+    display: block;
+    max-width: 150vh;
+    padding: 5px 10px;
+}
+.data-beban{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    padding: 2px;
+}
+.beban{
+    width: 50px;
+    margin: 5px;
+}
+.predic-beban{
+    padding: 5px 10px
+} 
+.select-forecast{
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.select-forecast form{
+  display: flex;
+  width: 50%;
+}
+.select-forecast form label{
+  width: 50%;
+}
+.select-forecast form select{
+  margin-left: 10px;
+  width: 40%;
+}
+.select-forecast form input[type=submit]{
+  padding: 10px 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+
+@media (max-width: 900px) {
+  .delete-forecast{
+    display: flex;
+    margin: 10px 0px;
+  }
+  .select-forecast label{
+    width: 37%;
+    font-size: 12px;
+  }
+  .select-forecast select{
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-forecasting{
+    padding: 20px 20px;
+  }
+  .select-forecast label{
+    font-size: 8px;
+  }
+  .select-forecast select{
+    width: 50%;
+  }
+}
+
+@media (max-width: 420px) {
+}
